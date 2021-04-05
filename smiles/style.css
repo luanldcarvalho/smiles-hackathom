@@ -1,0 +1,391 @@
+/* FONTES*/
+*{
+    margin: 0px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+/* LINKS */
+a:link 
+{ 
+ text-decoration:none;
+}
+a {
+    color: #fff;
+ }
+ /* link que foi visitado */
+ a:visited {
+     color: #ffff;
+ }
+ /* quando o ponteiro do mouse passa no link */
+ a:hover {
+     color: #fff;
+ }
+ /* quando o link for selecionado */
+ a:active {
+     color: #fff;
+ }
+/* CHAT */
+#chat{
+    float: right;
+}
+#img-chat{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+button{
+        background: #FF5A00;
+        border-radius: 5px;
+        width: 275px;
+        height: 80px;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+
+@media only screen and (min-width : 1024px) {
+    /* CABEÇALHO*/
+    header{
+        background: #FF5A00;
+        width: 100%;
+        height: 80px;
+    }
+
+    .logo-smiles{
+        text-align: left;
+        padding: 20px;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    #menu-top{
+        display: inline-flex;
+        flex-direction: row;
+        float: right;
+        margin-right: 100px;
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+    }
+    .menu-top{
+        margin: 20px;
+    }
+    #menu-entrar{
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+
+    /* CAPA HEADER */
+    #capa-header{
+        background-image: url('./assets/images/capa-header.jpg');
+        display: cover;
+        height: 600px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 80px;
+    }
+    #conteudo-header{
+        left:30%;
+        top:45%;
+        position:absolute;
+
+    }    
+
+    #botao-header{
+        margin-top: 30px;
+    }
+
+
+    /* SEÇÃO PROMOÇÕES */
+    #promocoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        text-align: center;
+    }
+
+    #promocao1{
+        background-image: url(./assets/images/promocao1.jpg);
+        width: 580px;
+        height: 410px;
+    }
+
+    #promocao2{
+        background-image: url(./assets/images/promocao1.jpg);
+        width: 580px;
+        height: 410px;
+    }
+
+    .botao-promocao{
+        display: inline-block;
+        margin: auto;
+        margin-top: 40%;
+        font-weight: normal;
+    }
+
+
+    /* FOOTER */
+    footer{
+        width: 100%;
+        height: 80px;
+        color: white;
+        background: #333333;
+        display: flex; 
+        justify-content: space-between;
+    }
+    #endereco{
+        padding: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 14px;
+        margin-left: -30%;
+    }
+    #sociais{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .img-footer{
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width : 1025px) {
+    /* CABEÇALHO*/
+    header{
+        background: #FF5A00;
+        width: 100%;
+        height: 80px;
+    }
+
+    .logo-smiles{
+        text-align: left;
+        padding: 20px;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    #menu-top{
+        display: inline-flex;
+        flex-direction: row;
+        float: right;
+        margin-right: 100px;
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+    }
+    .menu-top{
+        margin: 20px;
+    }
+    #menu-entrar{
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+
+    /* CAPA HEADER */
+    #capa-header{
+        background-image: url('./assets/images/capa-header.jpg');
+        display: cover;
+        height: 300px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 30px;
+    }
+    #conteudo-header{
+        left:5%;
+        top:20%;
+        position:absolute;
+
+    }    
+
+    #botao-header{
+        margin-top: 30px;
+    }
+
+
+    /* SEÇÃO PROMOÇÕES */
+    #promocoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        text-align: center;
+    }
+
+    #promocao1{
+        background-image: url(./assets/images/promocao1.jpg);
+        width: 580px;
+        height: 410px;
+        margin: 5px;
+    }
+
+    #promocao2{
+        background-image: url(./assets/images/promocao1.jpg);
+        width: 580px;
+        height: 410px;
+        margin: 5px;
+    }
+
+    .botao-promocao{
+        display: inline-block;
+        margin: auto;
+        margin-top: 80%;
+        font-weight: normal;
+    }
+
+
+    /* FOOTER */
+    footer{
+        width: 100%;
+        height: 80px;
+        color: white;
+        background: #333333;
+        display: flex; 
+        justify-content: space-between;
+    }
+    #endereco{
+        padding: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;
+    }
+
+    .img-footer{
+        height: 15px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    /* CABEÇALHO*/
+    body { overflow-x: hidden; }
+    header{
+        background: #FF5A00;
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo-smiles{
+        text-align: left;
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    #menu-top{
+        display: inline-flex;
+        flex-direction: row;
+        float: right;
+        margin-right: 10px;
+        color: white;
+        list-style-type: none;
+        padding: 2px;
+    }
+    .menu-top{
+        margin: 20px;
+    }
+    #menu-entrar{
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+
+    /* CAPA HEADER */
+    #capa-header{
+        background-image: url('./assets/images/capa-header.jpg');
+        display: cover;
+        height: 300px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 30px;
+    }
+    #conteudo-header{
+        left:5%;
+        top:20%;
+        position:absolute;
+
+    }    
+
+    #botao-header{
+        margin-top: 10px;
+    }
+
+
+    /* SEÇÃO PROMOÇÕES */
+    #promocoes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #promocao1{
+        background-image: url(./assets/images/promocao1.jpg);
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #promocao2{
+        background-image: url(./assets/images/promocao1.jpg);
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .botao-promocao{
+        display: inline-block;
+        margin-top: 50%;
+        font-weight: normal;
+    }
+
+
+    /* FOOTER */
+    footer{
+        width: 100%;
+        height: 80px;
+        color: white;
+        background: #333333;
+        justify-content: center;
+    }
+    #endereco{
+        display: none;
+    }
+
+    #sociais{
+        padding: 20px;
+    }
+    .img-footer{
+        padding: 5px;
+    }
+    #chat{
+        display: none;
+    }
+}
+
+
+
+
+
